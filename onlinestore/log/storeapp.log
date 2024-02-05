@@ -3,3 +3,143 @@
 "GET /about/ HTTP/1.1" 200 93
 Открыта главная страница
 "GET / HTTP/1.1" 200 99
+Watching for file changes with StatReloader
+Открыта главная страница
+"GET / HTTP/1.1" 200 99
+"GET /clients HTTP/1.1" 301 0
+Открыта страница clients
+"GET /clients/ HTTP/1.1" 200 180
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 25, in clients
+    return HttpResponse(**client)
+           ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.http.response.HttpResponse() argument after ** must be a mapping, not QuerySet
+"GET /clients/ HTTP/1.1" 500 64139
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 25, in clients
+    return HttpResponse(*client)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() takes from 1 to 6 positional arguments but 10 were given
+"GET /clients/ HTTP/1.1" 500 68844
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 27, in clients
+    result = item.name_client + ' ' + item.phone_client + ' ' + item.email_client + ' ' + adress_client + '<br>'
+                                                                                          ^^^^^^^^^^^^^
+NameError: name 'adress_client' is not defined
+"GET /clients/ HTTP/1.1" 500 64680
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 27, in clients
+    result += '<br>' + item.name_client + ' ' + item.phone_client + ' ' + item.email_client + ' ' + adress_client
+                                                                                                    ^^^^^^^^^^^^^
+NameError: name 'adress_client' is not defined
+"GET /clients/ HTTP/1.1" 500 64756
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+"GET /clients/ HTTP/1.1" 200 461
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+"GET /clients/ HTTP/1.1" 200 592
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница clients
+"GET /clients/ HTTP/1.1" 200 592
+Открыта страница product
+Internal Server Error: /product/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 36, in product
+    result += '<br>' + item.name_product + ' ' + item.quantity_product + ' ' + item.price_product
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+"GET /product/ HTTP/1.1" 500 64891
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница product
+"GET /product/ HTTP/1.1" 200 1026
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница product
+"GET /product/ HTTP/1.1" 200 1197
+Открыта страница product
+"GET /product/ HTTP/1.1" 200 1197
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница product
+"GET /product/ HTTP/1.1" 200 1216
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница product
+"GET /product/ HTTP/1.1" 200 1140
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница order
+Internal Server Error: /order/
+Traceback (most recent call last):
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\Django\onlinestore\storeapp\views.py", line 45, in order
+    result += '<br>' + item.client_order + ' ' + item.product_order + ' ' + item.price_order
+              ~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "Client") to str
+"GET /order/ HTTP/1.1" 500 63632
+D:\GB\Django\onlinestore\storeapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Открыта страница order
+"GET /order/ HTTP/1.1" 200 85
