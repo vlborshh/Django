@@ -31,6 +31,8 @@ class Product(models.Model):
     price_product = models.DecimalField(max_digits=8, decimal_places=2)
     quantity_product = models.IntegerField()
     date_product = models.DateField(auto_now_add=True)
+    # В соответствии с заданием №4 добавляем поле для хранения изображений
+    image_product = models.ImageField(default=None)
 
 
 # Поля модели «Заказ»:

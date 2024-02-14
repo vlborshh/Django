@@ -11,4 +11,5 @@ urlpatterns = [
     path('sorting_orders_date_week/<int:client_id>', views.sorting_orders_date_week, name='sorting_orders_date_week'),
     path('sorting_orders_date_month/<int:client_id>', views.sorting_orders_date_month, name='sorting_orders_date_month'),
     path('sorting_orders_date_year/<int:client_id>', views.sorting_orders_date_year, name='sorting_orders_date_year'),
+    path('products/add', views.product_form_add, name='product_form_add'),
 ]
