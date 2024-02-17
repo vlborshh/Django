@@ -847,3 +847,224 @@ Watching for file changes with StatReloader
 "GET /products/add HTTP/1.1" 200 2015
 Получили Наименование товара №4, Наименование товара задание №4, 100.0, 2, 2024-02-14, фото загружено
 "POST /products/add HTTP/1.1" 200 2106
+Watching for file changes with StatReloader
+Открыта главная страница
+"GET / HTTP/1.1" 200 99
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5944
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/auth/group/ HTTP/1.1" 200 7783
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/ HTTP/1.1" 200 5944
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 7538
+"GET /admin/storeapp/client/ HTTP/1.1" 200 8576
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/order/ HTTP/1.1" 200 8569
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/product/ HTTP/1.1" 200 10117
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/ HTTP/1.1" 200 8576
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/add/ HTTP/1.1" 200 11736
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12055
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12055
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12053
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12055
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/add/ HTTP/1.1" 200 11736
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12055
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+D:\GB\Django\onlinestore\storeapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/storeapp/client/ HTTP/1.1" 200 8576
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/add/ HTTP/1.1" 200 11736
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12059
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12059
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/add/ HTTP/1.1" 200 11736
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 200 12059
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+"GET /admin/storeapp/client/add/ HTTP/1.1" 200 11736
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/storeapp/client/add/ HTTP/1.1" 302 0
+"GET /admin/storeapp/client/ HTTP/1.1" 200 10324
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/storeapp/client/ HTTP/1.1" 200 10105
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/1/change/ HTTP/1.1" 200 12072
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/ HTTP/1.1" 200 10105
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4052
+"GET /admin/auth/user/ HTTP/1.1" 200 13083
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14066
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 10716
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/1/change/ HTTP/1.1" 200 14345
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/ HTTP/1.1" 200 10493
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14066
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14363
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/ HTTP/1.1" 200 10835
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 14356
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11176
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14066
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11542
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14066
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11892
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25196
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14446
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 25196
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14981
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 25196
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 15520
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 24990
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 15299
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 15299
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 11317
+"GET /admin/storeapp/product/ HTTP/1.1" 200 11691
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/order/ HTTP/1.1" 200 8898
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/client/ HTTP/1.1" 200 11292
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/storeapp/client/ HTTP/1.1" 200 12227
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/order/ HTTP/1.1" 200 9885
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/product/ HTTP/1.1" 200 12739
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/storeapp/product/1/change/ HTTP/1.1" 200 12700
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\Django\onlinestore\storeapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/storeapp/product/1/change/ HTTP/1.1" 200 12895
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803

@@ -10,7 +10,7 @@ class Command(BaseCommand):
         for i in range(10):
             count = i + 1
             client = Client(name_client=f'Имя{count}',
-                            phone_client=f'+7 987-654-32-1{i}',
+                            phone_client=f'+7987654321{i}',
                             email_client=f'mail{count}@mail.ru',
                             adress_client=f'Адрес {count}',
             )

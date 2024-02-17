@@ -11,8 +11,8 @@ class Client(models.Model):
     name_client = models.CharField(max_length=80)
     email_client = models.EmailField()
     phone_client = models.CharField(
-                                    validators=[RegexValidator(r'^\d\d \d\d\d-\d\d\d-\d\d-\d\d')],
-                                    max_length=12,
+                                    # validators=[RegexValidator(r'^\d\d \d\d\d-\d\d\d-\d\d-\d\d')],
+                                    max_length=16,
                                     null=False,
                                     help_text='Номер телефона должен быть введен в формате: +7 xxx-xxx-xx-xx')
     adress_client = models.CharField(max_length=180)
